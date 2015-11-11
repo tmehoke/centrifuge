@@ -58,7 +58,7 @@ def main():
     delta               = 200
     small_index_max_size= 4 * 1024**3 - delta
     build_bin_name      = "centrifuge-build-bin"
-    build_bin_s         = "centrifuge-buind-bin"
+    build_bin_s         = "centrifuge-build-bin"
     curr_script         = os.path.realpath(inspect.getsourcefile(main))
     ex_path             = os.path.dirname(curr_script)
     build_bin_spec      = os.path.join(ex_path,build_bin_s)
